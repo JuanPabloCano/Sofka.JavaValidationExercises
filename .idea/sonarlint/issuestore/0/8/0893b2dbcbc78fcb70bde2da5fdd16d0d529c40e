@@ -1,0 +1,13 @@
+
+x
+java:S3008"]Rename this field "precio_baseDefecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( °×“ıÿÿÿÿ
+n
+java:S3008"XRename this field "color_defecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÎ¼œ
+
+java:S3008"dRename this field "consumo_energeticoDefecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï•Šùÿÿÿÿ
+r
+java:S3008"WRename this field "peso_defecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆŒ“„ùÿÿÿÿ
+>	java:S1319""Add a default case to this switch.(¡ùÉà8®ğ‰§Ó/
+o	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ‚õûÿÿÿÿ8³ğ‰§Ó/
+P
+java:S11213".Extract the assignment out of this expression.(‚§—ùÿÿÿÿ8³ğ‰§Ó/

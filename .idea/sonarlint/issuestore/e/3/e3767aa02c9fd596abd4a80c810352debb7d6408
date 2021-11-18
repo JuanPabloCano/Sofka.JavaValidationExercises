@@ -1,0 +1,9 @@
+
+v
+java:S3008"[Rename this field "pulgadas_defecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åƒ½Æúÿÿÿÿ
+z
+java:S3008"_Rename this field "sintonizador_defecto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹×¤ÿøÿÿÿÿ
+O
+java:S1068"4Remove this unused "pulgadas_defecto" private field.(åƒ½Æúÿÿÿÿ
+S
+java:S1068"8Remove this unused "sintonizador_defecto" private field.(¹×¤ÿøÿÿÿÿ
