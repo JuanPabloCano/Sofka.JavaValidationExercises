@@ -3,17 +3,23 @@ package Exercise_16.ClassPersona;
 import java.util.Random;
 
 public class Persona {
+    private static final int edad_Default = 16;
+    private static final char sexo_Default = 'H';
+    private static final int peso_Default = 55;
+    private static final double altura_Default = 1.64;
+
+
     private String nombre;
-    private int edad = 0;
+    private int edad;
     private int dni;
     private char sexo;
-    private int peso = 0;
-    private double altura = 0.0;
+    private int peso;
+    private double altura ;
 
     public Persona(String nombre, int edad, char sexo, int peso, double altura) {
         this.nombre = nombre;
         this.edad = edad;
-        this.sexo = sexo;
+        this.sexo = comprobarSexo(sexo);
         this.peso = peso;
         this.altura = altura;
     }
@@ -21,7 +27,9 @@ public class Persona {
     public Persona(String nombre, int edad, char sexo) {
         this.nombre = nombre;
         this.edad = edad;
-        this.sexo = sexo;
+        this.sexo = comprobarSexo(sexo);
+        this.peso = Persona.peso_Default;
+        this.altura = Persona.altura_Default;
     }
 
     public Persona(){}
@@ -37,14 +45,21 @@ public class Persona {
         return this.edad >= 18;
     }
 
-    public String comprobarSexo (char sexo){
-        if (this.sexo != sexo){ return "h";}
-        return "h";
+    public char comprobarSexo (char sexo){
+        if (sexo == sexo_Default){ return this.sexo = sexo;}
+        return this.sexo = sexo_Default;
     }
 
-    public String toStrings(){
-        return "Nombre: "+ getNombre()+ ", edad: "+ getEdad() + ", sexo: " + getSexo()+ ", peso: "+ getPeso()
-                + ", altura: "+ getAltura();
+    @Override
+    public String toString() {
+        return "Persona {" +
+                "nombre ='" + nombre + '\'' +
+                ", edad =" + edad +
+                ", dni =" + generaDNI() +
+                ", sexo =" + sexo +
+                ", peso =" + peso +
+                ", altura =" + altura +
+                '}';
     }
 
     public String generaDNI(){

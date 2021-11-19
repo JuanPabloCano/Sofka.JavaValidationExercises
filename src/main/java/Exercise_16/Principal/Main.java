@@ -47,7 +47,7 @@ public class Main {
         }else {
             System.out.println(p1.getNombre() + " "+ underAge);
         }
-        System.out.println(p1.toStrings());
+        System.out.println(p1);
 
         System.out.println();
         System.out.println("**************************************************************");
@@ -63,8 +63,6 @@ public class Main {
         sexo = sc.next().charAt(0);
 
         Persona p2 = new Persona(nombre, edad, sexo);
-        p2.setPeso(65);
-        p2.setAltura(1.65);
 
         if (p2.calcularIMC(p2.getPeso(), p2.getAltura()) == -1){
             System.out.println(p2.getNombre()+ " " + lowWeight);
@@ -79,7 +77,7 @@ public class Main {
         }else {
             System.out.println(p2.getNombre() + " "+ underAge);
         }
-        System.out.println(p2.toStrings());
+        System.out.println(p2);
 
         System.out.println();
         System.out.println("**************************************************************");
@@ -105,6 +103,6 @@ public class Main {
         }else {
             System.out.println(p3.getNombre() + " "+ underAge);
         }
-        System.out.println(p3.toStrings());
+        System.out.println(p3);
     }
 }
