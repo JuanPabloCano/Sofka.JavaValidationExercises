@@ -1,5 +1,7 @@
 package Exercise_12;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Scanner;
 
 public class Words {
@@ -8,7 +10,7 @@ public class Words {
 
         String word_1;
         String word_2;
-        boolean comparator;
+        String comparator;
 
         System.out.println("Ingrese una palabra");
         word_1 = sc.nextLine();
@@ -18,8 +20,8 @@ public class Words {
         if (word_1.equals(word_2)){
             System.out.println("Las palabras son iguales");
         }else {
-            comparator = word_1.contains(word_2);
-            System.out.println(comparator);
+            comparator = StringUtils.difference(word_1, word_2);
+            System.out.println("Diferencias: " + comparator);
         }
     }
 }

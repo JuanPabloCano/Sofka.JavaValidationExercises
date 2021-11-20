@@ -5,8 +5,6 @@ Z
 +src/main/java/Exercise_2/NumVariable_2.java,f\1\f1bd2bcd32fe78a01a057b2c71685ed87f13f36b
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -38,3 +36,19 @@ S
 .src/main/java/Exercise_17/Clases/Lavadora.java,6\0\60d6ae0a7ff59297a616ce7103644b1a176c7ccd
 f
 6src/main/java/Exercise_17/Clases/Electrodomestico.java,0\8\0893b2dbcbc78fcb70bde2da5fdd16d0d529c40e
+`
+0src/main/java/Exercise_18/Clases/Videojuego.java,a\e\ae43c5cdc3a7654803bde78d50008451481fa886
+`
+0src/main/java/Exercise_18/Clases/Entregable.java,e\8\e8e66e3c20d6d30ee29ed75e85f28b7267c05867
+]
+-src/main/java/Exercise_18/Principal/Main.java,f\4\f43cd7a4437d294286ee4c868ea46faedfed73c8
+[
++src/main/java/Exercise_18/Clases/Serie.java,2\8\28377eed1dc1b335fbb64acdee5fbe03f7b1cdb0
+^
+.src/main/java/Exercise_11/Sentence_length.java,8\d\8df6a5639055451448e76d341e16f0ddb27c57ac
+V
+&src/main/java/Exercise_9/Sentence.java,b\2\b2d571b01ddbbaa36e67e747f37cd4b2c093aa6a
+]
+-src/main/java/Exercise_16/Principal/Main.java,f\6\f6657f6044a88de426b22c24bd13fba4efdf9166
+c
+3src/main/java/Exercise_16/ClassPersona/Persona.java,6\3\6309273c897419cf23dbedf4053efb9b4c62ca17
