@@ -52,3 +52,9 @@ V
 -src/main/java/Exercise_16/Principal/Main.java,f\6\f6657f6044a88de426b22c24bd13fba4efdf9166
 c
 3src/main/java/Exercise_16/ClassPersona/Persona.java,6\3\6309273c897419cf23dbedf4053efb9b4c62ca17
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+T
+$src/main/java/Exercise_12/Words.java,3\a\3a4e31a5ffecb502272474bb735cb9a1079a6733

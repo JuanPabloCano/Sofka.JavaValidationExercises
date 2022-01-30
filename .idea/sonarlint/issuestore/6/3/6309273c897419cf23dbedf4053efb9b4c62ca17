@@ -1,0 +1,15 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(î¡¨»
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôÓ…µÿÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í¾§±
+t	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è¦Âıÿÿÿÿ
+g
+java:S1450"RRemove the "dni" field and declare it as a local variable in the relevant methods.(—úª+
+9
+java:S2119B"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+F
+java:S1068"0Remove this unused "edad_Default" private field.(î¡¨»
+I
+java:S11211".Extract the assignment out of this expression.(ù‰…‡ùÿÿÿÿ
+I
+java:S11212".Extract the assignment out of this expression.(Å’ÚÇÿÿÿÿÿ

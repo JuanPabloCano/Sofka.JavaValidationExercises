@@ -55,6 +55,7 @@ public class Main {
 
         // Objeto p2
 
+        sc.nextLine();
         System.out.println("Ingrese su nombre");
         nombre = sc.nextLine();
         System.out.println("Ingrese su edad");
